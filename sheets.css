@@ -1,0 +1,10 @@
+body {
+}
+/*.............NAVBAR........... */
+nav {
+  overflow: hidden;
+  background-color: #c55394;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
