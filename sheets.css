@@ -1,10 +1,102 @@
-body {
+@font-face {
+  font-family: "courgette";
+  src: url(assetss/Courgette-Regular.ttf);
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url(assetss/background.png);
+}
+h1 {
+  font-family: "courgette", cursive;
+  padding: 10% 0 25px 0;
+  margin-bottom: 0;
+  background: url(assetss/rainbow.png) no-repeat center 20px;
+  color: #c55394;
+  text-align: center;
+}
+h2 span,
+i,
+h4 {
+  font-family: "courgette", cursives;
+  color: #eb43a3;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
 /*.............NAVBAR........... */
 nav {
+  color: #fff;
   overflow: hidden;
   background-color: #c55394;
-  position: fixed;
   width: 100%;
+}
+header li {
+  float: left;
+}
+header li a {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px 15px;
+}
+#MyUnicorn {
+  font-family: "courgette";
+}
+.menu {
+  float: right;
+}
+a:hover {
+  background-color: #eb43a3;
+}
+
+/* ...........La "PAGE" en elle même (boite entourée de bordure+ombre)........ */
+.block_white {
+  margin: auto 15%;
+  padding: 25px;
+  background: #fff;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+/*............. Les images .......... */
+img {
+  width: 220px;
+  border-radius: 20px;
+  box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.6);
+}
+img:hover {
   opacity: 0.9;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+figure {
+  display: inline-block;
+  flex-flow: column;
+  margin: 15px;
+}
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
+/*  .......................... */
+
+input {
+  width: 150px;
+  height: 30px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  background: #eb43a3;
 }

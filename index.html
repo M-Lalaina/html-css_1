@@ -4,46 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- touche personnalisé de la page "un titre à mon site + un logo" -->
     <title>MyUnicorn</title>
+    <link rel="shortcut icon" href="assetss/unicorn_icon.png" />
+    <!-- lien vers le fichier ".css" pour appliquer les modifications à mes codes html -->
     <link rel="stylesheet" href="sheets.css" />
+    <!-- j'ai importé le lien 'font_Awesome 4.6'ici, pour donner les icones "stars(étoiles)" placés devant les titres-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css"
+    />
   </head>
   <body>
     <header>
+      <!-- une balise 'nav bar' pour nos menus -->
       <nav>
         <ul>
-          <li id="logo"><a href="#">MyUnicorn</a></li>
-          <li><a href="#concept">LE PRINCIPE</a></li>
-          <li><a href="#unicorn">NOS LICORNES</a></li>
-          <li><a href="#find">NOUS TROUVER</a></li>
+          <li><a href="#index.html" id="MyUnicorn">MyUnicorn</a></li>
+          <!-- j'y ai mis ici un attribut menu, tout simplement pour spécifier les modifications à faire dessus -->
+          <div class="menu">
+            <li><a href="#concept">LE PRINCIPE</a></li>
+            <li><a href="#unicorns">NOS LICORNES</a></li>
+            <li><a href="#find_us">NOUS TROUVER</a></li>
+          </div>
         </ul>
       </nav>
     </header>
     <section>
+      <!-- Le Titre de la page -->
       <h1>Un jour, une licorne</h1>
-      <h2>Le prncipe</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis
-        modi assumenda dignissimos temporibus, a illum similique praesentium
-        facere optio, inventore at ad laboriosam! Accusamus repellat ipsum
-        architecto omnis pariatur fugiat debitis adipisci similique aspernatur
-        quia quo consequuntur, quisquam excepturi maxime unde non assumenda
-        minima possimus blanditiis. Eveniet, illo laborum?
-      </p>
-      <h2>Nos licornes</h2>
-      <ul>
-        <li>Lulu Confetty</li>
-        <li>Lapillon Magik</li>
-        <li>El Ninjacorn</li>
-        <li>Sweety Candy</li>
-      </ul>
-      <h2>Nous trouver</h2>
-      <p>
-        Notre élevage de licornes est situé au : Analakely Market Arabe
-        Rahezavana, Antananarivo, Madagascar 01.22.45.67.90
-      </p>
-      <p>Newsletter Abonnez-vous simplement à notre newsletter mensuelle !</p>
+      <!-- Les contenus de la page -->
+      <div class="block_white">
+        <!--un 1er sectionn qui va relier l'attribut "id='concept" au lien d'ancrage "#concept" un peu plus haut-->
+        <section id="concept">
+          <h2>
+            <i class="fa fa-star-o" aria-hidden="true">
+              <span>Le prncipe</span>
+            </i>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+            dolores ea sit ullam quo dicta, doloribus, cupiditate quos
+            reiciendis facere sint mollitia numquam aspernatur quibusdam
+            impedit, repellendus facilis ducimus exercitationem amet.
+            Aspernatur, alias culpa voluptatem sunt earum laboriosam iusto, ea,
+            consequatur neque pariatur esse. Asperiores blanditiis perspiciatis
+            reprehenderit voluptatem incidunt voluptatibus nihil corporis
+            accusamus tempora numquam! Nemo quis vitae quo officiis nam sapiente
+            fuga deleniti tenetur totam, nihil ullam illum impedit eos incidunt
+            voluptate quam corporis, perferendis sequi neque voluptatum. <br />
+            <br />
+            Deserunt veritatis quas minima! Labore, atque tempora nostrum
+            laudantium possimus dolorum, molestiae commodi et placeat deleniti
+            ex, debitis quam at. Impedit nesciunt beatae doloribus ullam
+            officiis aspernatur, tempora ab sit mollitia earum, animi amet vitae
+            perspiciatis recusandae, similique totam accusamus. Magnam porro
+            deleniti optio iusto eaque voluptates vel laudantium.
+          </p>
+          <!-- un 2ème sectionn qui va relier l'attribut "id='concept" au lien d'ancrage "#concept"  -->
+        </section>
+        <br />
+        <section id="unicorns">
+          <h2>
+            <i class="fa fa-star-o" aria-hidden="true">
+              <span> Nos licornes</span>
+            </i>
+          </h2>
+          <figure>
+            <img src="unicorns/photo1.jpg" alt="Lulu_Confetty_photo" />
+            <figcaption>Lulu Confetty</figcaption>
+          </figure>
+          <figure>
+            <img src="unicorns/photo2.jpg" alt="Lapillon_Magik_photo" />
+            <figcaption>Lapillon Magik</figcaption>
+          </figure>
+          <figure>
+            <img src="unicorns//photo3.jpg" alt="El_Ninjacorn_photo" />
+            <figcaption>El Ninjacorn</figcaption>
+          </figure>
+          <figure>
+            <img src="unicorns/photo4.jpg" alt="Sweety_Candy_photo" />
+            <figcaption>Sweety Candy</figcaption>
+          </figure>
+        </section>
+        <br />
+        <section id="find_us">
+          <h2>
+            <i class="fa fa-star-o" aria-hidden="true">
+              <span>Nous trouver</span>
+            </i>
+          </h2>
+          <p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1887.2837923065385!2d47.52514312059473!3d-18.90625506619166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1643886037554!5m2!1sfr!2smg"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </p>
+          <div class="adress">
+            <h4>Notre élevage de licornes est situé au :</h4>
+            <p>
+              Analakely Market <br />
+              Arabe Rahezavana,Antananarivo,Madagascar <br />
+              01.22.45.67.90
+            </p>
+            <h4>Newsletter</h4>
+            <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+            <form>
+              <input placeholder="Votre@email" /><br />
+              <br />
+              <button>Valider</button>
+            </form>
+          </div>
+        </section>
+      </div>
     </section>
-
     <footer></footer>
   </body>
 </html>
