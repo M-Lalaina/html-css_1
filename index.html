@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <!-- une balise 'nav bar' pour nos menus -->
+      <!-- =======NAVBAR=======-->
       <nav>
         <ul>
           <li><a href="#index.html" id="MyUnicorn">MyUnicorn</a></li>
@@ -31,11 +31,12 @@
       </nav>
     </header>
     <section>
-      <!-- Le Titre de la page -->
+      <!-- =============== TITRE ============ -->
       <h1>Un jour, une licorne</h1>
-      <!-- Les contenus de la page -->
+      <!--=============== CONTENU ================ -->
       <div class="block_white">
-        <!--un 1er sectionn qui va relier l'attribut "id='concept" au lien d'ancrage "#concept" un peu plus haut-->
+        <!--Les liens du menu sont des ancres vers les trois blocs de contenu : Le principe, Nos licornes et Nous trouver.-->
+        <!--=====1er SECTION====-->
         <section id="concept">
           <h2>
             <i class="fa fa-star-o" aria-hidden="true">
@@ -52,7 +53,8 @@
             reprehenderit voluptatem incidunt voluptatibus nihil corporis
             accusamus tempora numquam! Nemo quis vitae quo officiis nam sapiente
             fuga deleniti tenetur totam, nihil ullam illum impedit eos incidunt
-            voluptate quam corporis, perferendis sequi neque voluptatum. <br />
+            voluptate quam corporis, perferendis sequi neque voluptatum.
+            <br />
             <br />
             Deserunt veritatis quas minima! Labore, atque tempora nostrum
             laudantium possimus dolorum, molestiae commodi et placeat deleniti
@@ -61,15 +63,16 @@
             perspiciatis recusandae, similique totam accusamus. Magnam porro
             deleniti optio iusto eaque voluptates vel laudantium.
           </p>
-          <!-- un 2ème sectionn qui va relier l'attribut "id='concept" au lien d'ancrage "#concept"  -->
         </section>
         <br />
+        <!-- =====2ème SECTION===== -->
         <section id="unicorns">
           <h2>
             <i class="fa fa-star-o" aria-hidden="true">
               <span> Nos licornes</span>
             </i>
           </h2>
+          <!-- IMAGES : les images sont entourées de balises "figure" et les noms des licornes se trouvent dans des balises "figcaption".-->
           <div class="images">
             <figure>
               <img src="unicorns/photo1.jpg" alt="Lulu_Confetty_photo" />
@@ -90,6 +93,7 @@
           </div>
         </section>
         <br />
+        <!-- ======3ème SECTION====== -->
         <section id="find_us">
           <div class="box1">
             <h2>
@@ -97,6 +101,7 @@
                 <span>Nous trouver</span>
               </i>
             </h2>
+            <!-- ========= CARTE: La carte est une carte Google Maps interactive, centrée sur la boutique.===== -->
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1887.2837923065385!2d47.52514312059473!3d-18.90625506619166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1643886037554!5m2!1sfr!2smg"
               width="500"
@@ -116,14 +121,29 @@
             <h4>Newsletter</h4>
             <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
             <form>
+              <!-- ======formulaire d'inscription qui ne peux accépter que les emails===== -->
               <input placeholder="Votre@email" /><br />
               <br />
-              <button>Valider</button>
+              <!-- =====lien qui mène vers la page "newsletter"==== -->
+              <button>
+                <a
+                  href="newsletter.php"
+                  title="lien_vers_newsletter"
+                  target="_blank"
+                  >Valider</a
+                >
+              </button>
             </form>
           </div>
         </section>
       </div>
     </section>
-    <footer></footer>
+    <!-- =====Le pied de page===== -->
+    <footer>
+      <div id="copyrightAndIcons"></div>
+      <div id="copyright">
+        <span>2022©from_Manan-jo_Lalaina</span>
+      </div>
+    </footer>
   </body>
 </html>
