@@ -84,7 +84,9 @@ a:hover {
 /*....................IMAGES.................. */
 .images {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 figure {
   position: relative;
