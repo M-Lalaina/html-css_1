@@ -85,11 +85,11 @@ figure {
   position: relative;
   display: inline-flex;
   flex-flow: column;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 /*.Les propriétés que vont avoir les images: largeur,et ombres.*/
 img {
-  width: 220px;
+  width: 250px;
   box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.5);
 }
 /* .......Zoom au survol des images........ */
