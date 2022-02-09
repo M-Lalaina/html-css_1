@@ -16,7 +16,7 @@ h1 {
   padding: 10% 0 3% 0;
   margin: 0;
   /* background= je lui ai assigné les propriétés "no-repeat" pour que l'image de fond ne se répète pas,"center" pour centrer l'image et 70px pour sa position*/
-  background: url(assetss/rainbow.png) no-repeat center 75px;
+  background: url(assetss/rainbow.png) no-repeat center 55px;
   color: #c55394;
   text-align: center;
 }
