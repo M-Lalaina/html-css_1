@@ -1,13 +1,13 @@
 /* .j'ai intégré ici la police <courgette>> que j'ai importé depuis "goole font" pour rajouter une style personnalisé à nos textes.*/
 @font-face {
   font-family: "courgette";
-  src: url(assetss/Courgette-Regular.ttf);
+  src: url(../font/Courgette-Regular.ttf);
 }
 /* ....................Le CORPS de la page.....................*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: url(assetss/background.png);
+  background: url(../img/background.png);
 }
 /*...................Le TITRE PRINCIPALE ...............*/
 h1 {
@@ -16,7 +16,7 @@ h1 {
   padding: 10% 0 3% 0;
   margin: 0;
   /* background= je lui ai assigné les propriétés "no-repeat" pour que l'image de fond ne se répète pas,"center" pour centrer l'image et 70px pour sa position*/
-  background: url(assetss/rainbow.png) no-repeat center 55px;
+  background: url(../img/rainbow.png) no-repeat center 55px;
   color: #c55394;
   text-align: center;
 }
